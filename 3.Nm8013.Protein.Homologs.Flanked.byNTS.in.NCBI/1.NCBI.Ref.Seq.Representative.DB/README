@@ -1,0 +1,12 @@
+To conduct this analysis, the user would have to download the genomic .fna and 
+predicted CDNAs and proteome files for each of the RefSeq genomes assembly IDs in the accompanying file.
+In the format retrieved by NCBI "datasets" command
+Folder with GCF_* number, and the sequence data in:
+- Genomic sequence in X_genomic.fna
+- CDS in cds_from_genomic.fna
+- Proteins in proteins.faa
+From the Ref Seq DB
+Then BLAST, samtools and exonerate indicies need to be generated.
+Scipts:
+- make.ncbi.db.sh : Script to bulid blastDB and indicies
+For reasons of space, the downloaded genomes are not included in this supplement 

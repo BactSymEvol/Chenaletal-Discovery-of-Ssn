@@ -1,0 +1,1 @@
+datasets summary genome accession --inputfile /media/data/luke/Neisseria.working/refseq_DB_info/refseq_GCF_eference_genomes.20230829.GCF.txt --assembly-source refseq --as-json-lines | dataformat tsv genome --fields accession,assminfo-name,assminfo-level,organism-name,checkm-completeness,assmstats-total-sequence-len > refseq_GCF_eference_genomes.20230829.genome.info.tsv

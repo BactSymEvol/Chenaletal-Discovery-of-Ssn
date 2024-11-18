@@ -1,0 +1,11 @@
+To conduct this analysis, access to an HPC cluster is essential.
+This script takes as input a signle protein fasta file and a list of genomes against which to search.
+The protein fasta files can be found in the 2.Nm8013.Proteins.flanked.by.NTS.Annotations/1.NM8013.Proteome directory
+The genome list is found in 3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/1.NCBI.Ref.Seq.Representative.DB/refseq_reference_genomes.20230829.list.txt
+
+The script is set up to be called and run by a single computing core per protein, so this script can be submitted to a job scheduler iterating across each
+protein.
+
+The results of this analysis are folder, one per input protein, with the extracted flanking regions of all homologs of that protein in the NCBI reference/representative DB
+
+For NM8013 proteome, this is include in the .tar file in this directoy. Note this represents tens of thousands of .fasta files and may be difficult to extract on some filesystems
