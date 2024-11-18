@@ -1,0 +1,274 @@
+DATASET_COLORSTRIP
+#In colored strip datasets, each ID is associated to a color box/strip and can have an optional label. Color can be specified in hexadecimal, RGB or RGBA notation. When using RGB or RGBA notation, you cannot use COMMA as the dataset separator
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+#SEPARATOR TAB
+#SEPARATOR COMMA
+SEPARATOR SPACE
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL NTS-Like_Flanked500
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#If COLOR_BRANCHES is set to 1, branches of the tree will be colored according to the colors of the strips above the leaves.
+#When all children of a node have the same color, it will be colored the same, ie. the color will propagate inwards towards the root.
+COLOR_BRANCHES 0
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE Dataset_legend
+#LEGEND_SCALE 1
+#LEGEND_POSITION_X 100
+#LEGEND_POSITION_Y 100
+#LEGEND_HORIZONTAL 0
+#LEGEND_SHAPES 1 1 2 2
+#LEGEND_COLORS #ff0000 #00ff00 rgba(0,255,0,0.5) #0000ff
+#LEGEND_LABELS value1 value2 value3 value4
+#LEGEND_SHAPE_SCALES 1 1 0.5 1
+
+#width of the colored strip
+#STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN 0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the color strip 
+#BORDER_WIDTH 0
+
+#border color; used when BORDER_WIDTH is above 0
+#BORDER_COLOR #0000ff
+
+#if set to 1, border will be drawn completely around each colored strip box
+#COMPLETE_BORDER 0
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 0
+
+
+#display or hide the individual label inside each colored strip (when defined in the data below)
+#SHOW_STRIP_LABELS 1
+
+#position of the strip label within the box; 'top', 'center' or 'bottom'
+#STRIP_LABEL_POSITION center
+
+#strip label size factor (relative to the tree leaf labels)
+#STRIP_LABEL_SIZE_FACTOR 1
+
+
+#rotation of the strip labels; used only in rectangular tree display mode
+#STRIP_LABEL_ROTATION 0
+
+#strip label shift in pixels (positive or negative)
+#STRIP_LABEL_SHIFT 0
+
+#STRIP_LABEL_COLOR #000000
+
+#draw a black outline around the text (width in pixels)
+#STRIP_LABEL_OUTLINE 0.5
+
+#calculate the label color automatically (black or white), based on the darkness of the color strip
+#STRIP_LABEL_AUTO_COLOR 0
+
+#display or hide the dataset label above the colored strip
+#SHOW_LABELS 1
+
+#dataset label size factor
+#SIZE_FACTOR 1
+
+#dataset label rotation
+#LABEL_ROTATION 0
+
+#dataset label shift in pixels (positive or negative)
+#LABEL_SHIFT 0
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+
+#Examples:
+#assign a red colored strip to leaf 9606, with label 'Human'
+#9606 #ff0000 Human
+
+#assign a green, semi-transparent (alpha 0.5) strip to an internal node, without any label. If 'Show internal values' is set to 'No', this will only be displayed if the node is collapsed. 
+#9606|5664 rgba(0,255,0,0.5)
+GCF_020618775.1|WP_227319470.1 #FF0000
+GCF_020618775.1|WP_227319781.1 #FF0000
+GCF_000314675.2|WP_006021938.1 #FF0000
+GCF_000429145.1|WP_026377305.1 #FF0000
+GCF_002915195.1|WP_103584239.1 #FF0000
+GCF_003234965.1|WP_111196494.1 #FF0000
+GCF_014203115.1|WP_184089381.1 #FF0000
+GCF_003054175.1|WP_244641059.1 #FF0000
+GCF_008630495.1|WP_150023006.1 #FF0000
+GCF_023650495.1|WP_250656459.1 #FF0000
+GCF_900177405.1|WP_085218594.1 #FF0000
+GCF_000374545.1|WP_018702245.1 #FF0000
+GCF_003003925.1|WP_106220290.1 #FF0000
+GCF_001886695.1|WP_206539546.1 #FF0000
+GCF_002943755.1|WP_104813038.1 #FF0000
+GCF_009760915.1|WP_157272173.1 #FF0000
+GCF_000375465.1|WP_018128613.1 #FF0000
+GCF_016773205.1|WP_202835494.1 #FF0000
+GCF_900104485.1|WP_090878429.1 #FF0000
+GCF_001402875.1|WP_335338144.1 #FF0000
+GCF_003966715.1|WP_244599953.1 #FF0000
+GCF_014641655.1|WP_188642109.1 #FF0000
+GCF_002291445.1|WP_048635600.1 #FF0000
+GCF_013178945.1|WP_172181297.1 #FF0000
+GCF_019402665.1|WP_219679171.1 #FF0000
+GCF_900108245.1|WP_342210575.1 #FF0000
+GCF_900168195.1|WP_342060157.1 #FF0000
+GCF_000428765.1|WP_029086534.1 #FF0000
+GCF_000466985.1|WP_021697582.1 #FF0000
+GCF_003350205.1|WP_114816888.1 #FF0000
+GCF_020524625.1|WP_226634141.1 #FF0000
+GCF_000531125.1|WP_034431409.1 #FF0000
+GCF_001886815.1|WP_006927115.1 #FF0000
+GCF_002532075.1|WP_097652239.1 #FF0000
+GCF_000689395.1|WP_043950795.1 #FF0000
+GCF_000022005.1|YP_002518348.1 #FF0000
+GCF_002858925.1|WP_101717544.1 #FF0000
+GCF_004359955.1|WP_133511101.1 #FF0000
+GCF_019355395.1|WP_274940165.1 #FF0000
+GCF_013839525.1|WP_181706736.1 #FF0000
+GCF_013839525.1|WP_181706763.1 #FF0000
+GCF_001584205.1|WP_061534517.1 #FF0000
+GCF_900103545.1|WP_090706924.1 #FF0000
+GCF_000711295.1|WP_029898845.1 #FF0000
+GCF_000934745.1|WP_153306739.1 #FF0000
+GCF_009688965.1|WP_155305233.1 #FF0000
+GCF_016446285.1|WP_199261480.1 #FF0000
+GCF_016446285.1|WP_199263521.1 #FF0000
+GCF_000969415.1|WP_244466999.1 #FF0000
+GCF_000971295.1|WP_046139937.1 #FF0000
+GCF_003056345.1|WP_108395658.1 #FF0000
+GCF_900128975.1|WP_342021276.1 #FF0000
+GCF_025685645.1|WP_263366126.1 #FF0000
+GCF_000412185.1|WP_022698337.1 #FF0000
+GCF_000412185.1|WP_027068248.1 #FF0000
+GCF_002155305.1|WP_068865682.1 #FF0000
+GCF_004363955.1|WP_342636826.1 #FF0000
+GCF_900143235.1|WP_143150235.1 #FF0000
+GCF_900104305.1|WP_046480405.1 #FF0000
+GCF_001895265.1|WP_072711448.1 #FF0000
+GCF_009711525.1|WP_155186496.1 #FF0000
+GCF_020328055.1|WP_255647312.1 #FF0000
+GCF_007097155.1|WP_144237437.1 #FF0000
+GCF_019800005.1|WP_223861627.1 #FF0000
+GCF_014639075.1|WP_188452754.1 #FF0000
+GCF_900182705.1|WP_142456235.1 #FF0000
+GCF_000428525.1|WP_026942452.1 #FF0000
+GCF_003550065.1|WP_342768473.1 #FF0000
+GCF_000685215.1|WP_206741715.1 #FF0000
+GCF_004745955.1|WP_135496422.1 #FF0000
+GCF_013266695.1|WP_172887069.1 #FF0000
+GCF_028748065.1|WP_274491831.1 #FF0000
+GCF_000374105.1|WP_018624064.1 #FF0000
+GCF_004519335.1|WP_134759879.1 #FF0000
+GCF_004519335.1|WP_134761165.1 #FF0000
+GCF_014196455.1|WP_246410043.1 #FF0000
+GCF_020005365.1|WP_223669216.1 #FF0000
+GCF_001550065.1|WP_068148764.1 #FF0000
+GCF_003054265.1|WP_317046659.1 #FF0000
+GCF_004571195.1|WP_115152820.1 #FF0000
+GCF_014145325.1|WP_343064776.1 #FF0000
+GCF_030159895.1|WP_284365973.1 #FF0000
+GCF_001723295.1|WP_069624017.1 #FF0000
+GCF_014843905.1|WP_192257529.1 #FF0000
+GCF_000226315.1|WP_014102951.1 #FF0000
+GCF_000226315.1|WP_041793784.1 #FF0000
+GCF_021729055.1|WP_232942649.1 #FF0000
+GCF_003633685.1|WP_121160636.1 #FF0000
+GCF_900289045.1|WP_105186884.1 #FF0000
+GCF_001654455.1|WP_067761754.1 #FF0000
+GCF_002251795.1|WP_094452498.1 #FF0000
+GCF_014904795.1|WP_226886867.1 #FF0000
+GCF_007954425.1|WP_147089483.1 #FF0000
+GCF_014196055.1|WP_183611407.1 #FF0000
+GCF_015356755.1|WP_194850504.1 #FF0000
+GCF_015694345.1|WP_196277114.1 #FF0000
+GCF_018417475.1|WP_213501048.1 #FF0000
+GCF_025264625.1|WP_260795653.1 #FF0000
+GCF_000236705.1|WP_014201122.1 #FF0000
+GCF_000342165.1|WP_276510584.1 #FF0000
+GCF_028553725.1|WP_090616658.1 #FF0000
+GCF_001650715.1|WP_245651278.1 #FF0000
+GCF_017498565.1|WP_207990653.1 #FF0000
+GCF_900141895.1|WP_073993037.1 #FF0000
+GCF_001028625.1|WP_047805344.1 #FF0000
+GCF_005925345.1|WP_317130725.1 #FF0000
+GCF_013004005.1|WP_014131441.1 #FF0000
+GCF_011174675.1|WP_166365570.1 #FF0000
+GCF_000422965.1|WP_026793217.1 #FF0000
+GCF_014643455.1|WP_207792565.1 #FF0000
+GCF_003182595.1|WP_110022309.1 #FF0000
+GCF_003544895.1|WP_118943386.1 #FF0000
+GCF_004354915.1|WP_133283847.1 #FF0000
+GCF_017742995.1|WP_209054260.1 #FF0000
+GCF_003367395.1|WP_115693670.1 #FF0000
+GCF_018282095.1|WP_075699995.1 #FF0000
+GCF_000168975.1|WP_006932723.1 #FF0000
+GCF_000168975.1|WP_040440488.1 #FF0000
+GCF_008711285.1|WP_150493979.1 #FF0000
+GCF_025000125.1|WP_259550849.1 #FF0000
+GCF_006152115.1|WP_139076854.1 #FF0000
+GCF_002078605.1|WP_081209243.1 #FF0000
+GCF_013488225.1|WP_180939823.1 #FF0000
+GCF_001598535.1|WP_081570361.1 #FF0000
+GCF_003050705.1|WP_244185147.1 #FF0000
+GCF_025370095.1|WP_187762447.1 #FF0000
+GCF_001981525.1|WP_076743994.1 #FF0000
+GCF_002205635.1|WP_088472973.1 #FF0000
+GCF_003096275.1|WP_116468115.1 #FF0000
+GCF_003129465.1|WP_341533237.1 #FF0000
+GCF_003367235.1|WP_115549905.1 #FF0000
+GCF_004564275.1|WP_135085760.1 #FF0000
+GCF_004564275.1|WP_135087174.1 #FF0000
+GCF_009753715.1|WP_157027706.1 #FF0000
+GCF_011762125.1|WP_166945145.1 #FF0000
+GCF_013607875.1|WP_338401612.1 #FF0000
+GCF_003052265.1|WP_206362946.1 #FF0000
+GCF_019351405.1|WP_219238964.1 #FF0000
+GCF_014641495.1|WP_188666712.1 #FF0000
+GCF_000265425.1|WP_014787304.1 #FF0000
+GCF_005843925.1|WP_138319716.1 #FF0000
+GCF_900188055.1|WP_322111175.1 #FF0000
+GCF_900142295.1|WP_245794382.1 #FF0000
+GCF_003410055.1|WP_342766690.1 #FF0000
+GCF_007644045.2|WP_144373666.1 #FF0000
+GCF_014206845.1|WP_245420662.1 #FF0000
+GCF_023571765.1|WP_250167339.1 #FF0000
+GCF_028982105.1|WP_275008997.1 #FF0000
+GCF_016772415.1|WP_215339787.1 #FF0000

@@ -1,0 +1,7 @@
+Proceedure for GLAM2-based de novo identifcation of motifs in the regions flanking homologs of Ssna
+
+1. tblastn of SSna (Nm 8013) against our representative/reference genome DB (17000 bacteria)
+2. All proteins homologous with SSNa with > 75% min alignment length, e-value 1e-10 (top hit per genome) extracted = 2804 genomes
+3. Extract the 5000 5' and 3' genomic regions flanking the Ssna homolog in each genome (10 kbp per genome, 2804 genomes)
+4. Run Glam2 to identify de novo motifs in the 10kpb flanking region. (Glam2 will find exactly attempt to find 1 motif per input sequences)
+5. Result: Glam2 output and multiple sequence alignment of the top motif found in ALL input flanking regions 
