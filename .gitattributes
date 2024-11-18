@@ -7,3 +7,7 @@
 6.GIY.YIG.and.Snn.Phylogeny filter=lfs diff=lfs merge=lfs -text
 3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/2.Extract.Flanking.Regions/All.Nm8013.proteome.homologs.in.NCBI.flanking.regions.tar.gz filter=lfs diff=lfs merge=lfs -text
 3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/2.Extract.Flanking.Regions/refseq_GCF_reference_genomes.20230828_blast.results.txt.gz filter=lfs diff=lfs merge=lfs -text
+1.Neisseriacase.phylogeny.NTS.search/1.Neisseriacae.genomes filter=lfs diff=lfs merge=lfs -text
+1.Neisseriacase.phylogeny.NTS.search/2.Core.genome.phylogeny filter=lfs diff=lfs merge=lfs -text
+1.Neisseriacase.phylogeny.NTS.search/3.NTS.search filter=lfs diff=lfs merge=lfs -text
+1.Neisseriacase.phylogeny.NTS.search/4.NTS.extraction.Nm filter=lfs diff=lfs merge=lfs -text
