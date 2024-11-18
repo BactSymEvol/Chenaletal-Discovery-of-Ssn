@@ -1,0 +1,130 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=51;
+	taxlabels
+	'Eikenella_corrodens_NCTC10596_GCF_900187105.1.converted'
+	'Morococcus_cerebrosus_CIP_81.93_GCF_000813705.1.converted'
+	'Neisseria_mucosa_ATCC_19696_GCF_003028315.1.converted'
+	Neisseria_sp-LNP16475
+	'Neisseria_macacae_ATCC_33926_GCF_022749495.1.converted'
+	'Neisseria_sicca_DSM_17713_GCF_014054945.1.converted'
+	'Neisseria_benedictiae_M091_GCF_958267435.1.converted'
+	'Neisseria_bergeri_M40463_GCF_003490325.1.converted'
+	'Neisseria_maigaei_02_01105_XS1_1_GCF_958267405.1.converted'
+	'Neisseria_uirgultaei_12_13988_XS2_1_GCF_962707505.1.converted'
+	'Neisseria_blantyrii_M338_GCF_962747465.1.converted'
+	'Neisseria_viridiae_M101_GCF_962747945.1.converted'
+	Neisseria_gonorrhoeae
+	'Neisseria_meningitidis_8013_GCF_000026965.1.converted'
+	Neisseria_polysaccharea
+	'Neisseria_lactamica_NCTC10617_GCF_901482445.1.converted'
+	'Neisseria_lactamica_NS19_GCF_000193795.1.converted'
+	'Neisseria_cinerea_NCTC10294_GCF_900475315.1.converted'
+	'Neisseria_flavescens_ATCC_13120_GCF_005221285.1.converted'
+	'Neisseria_subflava_ATCC_49275_GCF_005221305.1.converted'
+	'Neisseria_subflava_M18660_GCF_003351665.1.converted'
+	'Neisseria_sp_oral_taxon014_str.F0314_GCF_005886145.1.converted'
+	'Neisseria_animalis_ATCC_49930_GCF_008806995.1.converted'
+	Neisseria_denitrificans-DSMZ17675
+	'Neisseria_chenwenguii_10023_GCF_002216145.1.converted'
+	'Neisseria_brasiliensis_N.177.16_GCF_009671065.1.converted'
+	Neisseria_denitrificans-CCUG17229
+	'Neisseria_weixii_10022_GCF_002327085.1.converted'
+	'Neisseria_yangbaofengii_ZJ785_GCF_014898075.1.converted'
+	'Neisseria_iguanae_ATCC_51483_GCF_003013245.1.converted'
+	Neisseria_mucosa-heidelbergensis
+	'Neisseria_animaloris_NCTC12228_GCF_900637855.1.converted'
+	'Neisseria_dumasiana_DSM_104677_GCF_022870885.1.converted'
+	'Neisseria_sp_DentCa1247_GCF_022870825.1.converted'
+	'Neisseria_zoodegmatis_NCTC12230_GCF_900187305.1.converted'
+	'Neisseria_montereyensis_CSL10203-ORH2_GCF_024834045.1.converted'
+	'Neisseria_zalophi_ATCC_BAA-2455_GCF_008807015.1.converted'
+	'Neisseria_dentiae_DSM_19151_GCF_014055005.1.converted'
+	'Neisseria_musculi_NW831_GCF_014297595.1.converted'
+	'Neisseria_weaveri_NCTC12742_GCF_900638685.1.converted'
+	'Neisseria_arctica_DSM_103136_GCF_022870905.1.converted'
+	'Uruburuella_suis_DSMZ_17474_GCF_022870845.1.converted'
+	'Uruburuella_testudinis_DSMZ_26510_GCF_022870865.1.converted'
+	'Neisseria_canis_NCTC10296_GCF_900636765.1.converted'
+	'Neisseria_sp_83E034_GCF_001308015.1.converted'
+	'Neisseria_wadsworthii_DSM_22245_GCF_014054885.1.converted'
+	'Neisseria_bacilliformis_DSM_23338_GCF_014055025.1.converted'
+	'Neisseria_potus_3_SID_1128_GCF_022870985.1.converted'
+	'Neisseria_sp_KEM232_GCF_002237445.1.converted'
+	'Neisseria_elongata_ATCC_29315_GCF_000818035.1.converted'
+	'Neisseriasp_3896.converted'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Eikenella_corrodens_NCTC10596_GCF_900187105.1.converted':0.366792997,((((((((('Morococcus_cerebrosus_CIP_81.93_GCF_000813705.1.converted':0.0157206987,'Neisseria_mucosa_ATCC_19696_GCF_003028315.1.converted':0.0145793868)[&boot=100]:0.004289231,Neisseria_sp-LNP16475:0.0304396368)[&boot=100]:0.0145354482,('Neisseria_macacae_ATCC_33926_GCF_022749495.1.converted':0.0145988843,'Neisseria_sicca_DSM_17713_GCF_014054945.1.converted':0.0147511257)[&boot=100]:0.0154181519)[&boot=100]:0.0617508135,(((((('Neisseria_benedictiae_M091_GCF_958267435.1.converted':0.0312463985,((('Neisseria_bergeri_M40463_GCF_003490325.1.converted':0.0258994139,'Neisseria_maigaei_02_01105_XS1_1_GCF_958267405.1.converted':0.026276224)[&boot=100]:0.006972856,'Neisseria_uirgultaei_12_13988_XS2_1_GCF_962707505.1.converted':0.0282200093)[&boot=100]:0.0054010485,('Neisseria_blantyrii_M338_GCF_962747465.1.converted':0.0262272331,'Neisseria_viridiae_M101_GCF_962747945.1.converted':0.0295061453)[&boot=100]:0.0073874502)[&boot=100]:0.0050543411)[&boot=100]:0.0051545596,(Neisseria_gonorrhoeae:0.0299120967,'Neisseria_meningitidis_8013_GCF_000026965.1.converted':0.0246004944)[&boot=100]:0.0124115837)[&boot=100]:0.0071264151,Neisseria_polysaccharea:0.0285697643)[&boot=100]:0.0099061508,('Neisseria_lactamica_NCTC10617_GCF_901482445.1.converted':0.0273316735,'Neisseria_lactamica_NS19_GCF_000193795.1.converted':0.034519992)[&boot=100]:0.0173313993)[&boot=100]:0.0256536626,'Neisseria_cinerea_NCTC10294_GCF_900475315.1.converted':0.0614532975)[&boot=100]:0.1005027879,('Neisseria_flavescens_ATCC_13120_GCF_005221285.1.converted':0.0202896522,('Neisseria_subflava_ATCC_49275_GCF_005221305.1.converted':0.0226776614,'Neisseria_subflava_M18660_GCF_003351665.1.converted':0.0289622306)[&boot=100]:0.0086789215)[&boot=100]:0.1160855122)[&boot=100]:0.0244013705)[&boot=100]:0.0339317662,'Neisseria_sp_oral_taxon014_str.F0314_GCF_005886145.1.converted':0.1179545623)[&boot=100]:0.0698853055,((('Neisseria_animalis_ATCC_49930_GCF_008806995.1.converted':0.1245596317,Neisseria_denitrificans-DSMZ17675:0.1004181804)[&boot=100]:0.0634435395,'Neisseria_chenwenguii_10023_GCF_002216145.1.converted':0.163750135)[&boot=100]:0.0188087511,((((('Neisseria_brasiliensis_N.177.16_GCF_009671065.1.converted':0.0224337131,Neisseria_denitrificans-CCUG17229:0.0269515026)[&boot=100]:0.0246783552,'Neisseria_weixii_10022_GCF_002327085.1.converted':0.0564690476)[&boot=100]:0.0087667757,'Neisseria_yangbaofengii_ZJ785_GCF_014898075.1.converted':0.0630881051)[&boot=100]:0.0252675442,'Neisseria_iguanae_ATCC_51483_GCF_003013245.1.converted':0.0907802136)[&boot=100]:0.0445413522,Neisseria_mucosa-heidelbergensis:0.08302939)[&boot=100]:0.0835759726)[&boot=100]:0.0150955289)[&boot=100]:0.0714777572,((((('Neisseria_animaloris_NCTC12228_GCF_900637855.1.converted':0.1314187949,('Neisseria_dumasiana_DSM_104677_GCF_022870885.1.converted':0.0626786559,('Neisseria_sp_DentCa1247_GCF_022870825.1.converted':0.0309053968,'Neisseria_zoodegmatis_NCTC12230_GCF_900187305.1.converted':0.013890279)[&boot=100]:0.0478180826)[&boot=100]:0.0553775561)[&boot=100]:0.0296260839,('Neisseria_montereyensis_CSL10203-ORH2_GCF_024834045.1.converted':0.0421008203,'Neisseria_zalophi_ATCC_BAA-2455_GCF_008807015.1.converted':0.0498292098)[&boot=100]:0.1985449645)[&boot=100]:0.0223333942,('Neisseria_dentiae_DSM_19151_GCF_014055005.1.converted':0.0487035549,'Neisseria_musculi_NW831_GCF_014297595.1.converted':0.0942565513)[&boot=100]:0.094361367)[&boot=100]:0.027344575,'Neisseria_weaveri_NCTC12742_GCF_900638685.1.converted':0.2458814529)[&boot=99]:0.0184046744,('Neisseria_arctica_DSM_103136_GCF_022870905.1.converted':0.289885503,('Uruburuella_suis_DSMZ_17474_GCF_022870845.1.converted':0.1316575196,'Uruburuella_testudinis_DSMZ_26510_GCF_022870865.1.converted':0.1185956896)[&boot=100]:0.0394636502)[&boot=100]:0.0439983206)[&boot=99]:0.0247553331)[&boot=99]:0.025741677,('Neisseria_canis_NCTC10296_GCF_900636765.1.converted':0.0554911374,('Neisseria_sp_83E034_GCF_001308015.1.converted':0.0513564863,'Neisseria_wadsworthii_DSM_22245_GCF_014054885.1.converted':0.0236573177)[&boot=100]:0.0479847995)[&boot=100]:0.2171574435)[&boot=100]:0.0208245214,(((('Neisseria_bacilliformis_DSM_23338_GCF_014055025.1.converted':0.0628907659,'Neisseria_potus_3_SID_1128_GCF_022870985.1.converted':0.0955327778)[&boot=100]:0.0520036008,'Neisseria_sp_KEM232_GCF_002237445.1.converted':0.0912711744)[&boot=100]:0.0767195288,'Neisseria_elongata_ATCC_29315_GCF_000818035.1.converted':0.1549082646)[&boot=100]:0.0798504398,'Neisseriasp_3896.converted':0.2557296745)[&boot=100]:0.0387587212)[&boot=100]:0.0359215719)[&boot=100];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="User Selection";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User Selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User Selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="AR PL UKai CN";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set nodeBars.barWidth=4.0;
+	set nodeLabels.colorAttribute="User Selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="AR PL UKai CN";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleAxis.significantDigits=4;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set scaleBar.significantDigits=4;
+	set tipLabels.colorAttribute="User Selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="AR PL UKai CN";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,481 @@
+IQ-TREE 2.2.0 COVID-edition built Sep  1 2022
+
+Input file name: core_gene_alignment.aln
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 831935
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 75 sequences with 943110 nucleotide sites
+Number of constant sites: 295633 (= 31.3466% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 295633 (= 31.3466% of all sites)
+Number of parsimony informative sites: 585357
+Number of distinct site patterns: 625814
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+I+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+I+R7    -25284683.030 50569702.060 +    0.603 50569702.120 +    0.604 50571677.226 +        1
+GTR+F+I+I+R8    -25284681.450 50569702.900 +    0.397 50569702.962 +    0.396 50571701.579 - 5.15e-06
+GTR+F+I+I+R6    -25284709.350 50569750.700 - 1.65e-11 50569750.759 - 1.66e-11 50571702.352 -  3.5e-06
+GTR+F+R8        -25284698.880 50569735.760 -  2.9e-08 50569735.821 -  2.9e-08 50571722.683 - 1.35e-10
+GTR+F+R9        -25284696.170 50569734.340 -  5.9e-08 50569734.402 -  5.9e-08 50571744.776 - 2.15e-15
+GTR+F+R7        -25284733.730 50569801.460 - 1.57e-22 50569801.520 - 1.57e-22 50571764.869 -  9.3e-20
+GTR+F+R6        -25284873.550 50570077.100 -  2.2e-82 50570077.158 -  2.2e-82 50572016.995 - 1.66e-74
+TIM3+F+I+I+R7   -25285200.760 50570733.520 - 6.34e-225 50570733.579 - 6.34e-225 50572685.172 - 1.34e-219
+GTR+F+I+I+R5    -25285288.070 50570904.140 - 5.65e-262 50570904.197 - 5.66e-262 50572832.278 - 1.53e-251
+GTR+F+R5        -25286818.030 50573962.060 -        0 50573962.117 -        0 50575878.441 -        0
+GTR+F+I+I+R4    -25289465.350 50579254.700 -        0 50579254.756 -        0 50581159.324 -        0
+GTR+F+R4        -25298749.080 50597820.160 -        0 50597820.215 -        0 50599713.027 -        0
+GTR+F+I+G4      -25307318.410 50614950.820 -        0 50614950.873 -        0 50616796.659 -        0
+GTR+F+I+I+R3    -25314690.200 50629700.400 -        0 50629700.455 -        0 50631581.510 -        0
+TIM2+F+I+I+R7   -25316472.880 50633277.760 -        0 50633277.819 -        0 50635229.412 -        0
+TIM+F+I+I+R7    -25316597.590 50633527.180 -        0 50633527.239 -        0 50635478.832 -        0
+TN+F+I+I+R7     -25316615.650 50633561.300 -        0 50633561.358 -        0 50635501.195 -        0
+TVM+F+I+I+R7    -25318500.710 50637335.420 -        0 50637335.480 -        0 50639298.829 -        0
+TPM3u+F+I+I+R7  -25318923.780 50638177.560 -        0 50638177.618 -        0 50640117.455 -        0
+SYM+I+I+R7      -25329126.300 50658582.600 -        0 50658582.658 -        0 50660522.495 -        0
+TIM3e+I+I+R7    -25333468.130 50667262.260 -        0 50667262.317 -        0 50669178.641 -        0
+TVMe+I+I+R7     -25345893.460 50692114.920 -        0 50692114.977 -        0 50694043.058 -        0
+TPM3+I+I+R7     -25350116.260 50700556.520 -        0 50700556.576 -        0 50702461.144 -        0
+TPM2u+F+I+I+R7  -25350103.970 50700537.940 -        0 50700537.998 -        0 50702477.835 -        0
+K3Pu+F+I+I+R7   -25350142.020 50700614.040 -        0 50700614.098 -        0 50702553.935 -        0
+HKY+F+I+I+R7    -25350161.630 50700651.260 -        0 50700651.317 -        0 50702579.398 -        0
+GTR+F+R3        -25365887.660 50732093.320 -        0 50732093.374 -        0 50733962.673 -        0
+GTR+F+G4        -25397036.430 50794384.860 -        0 50794384.912 -        0 50796218.942 -        0
+TIM2e+I+I+R7    -25409292.140 50818910.280 -        0 50818910.337 -        0 50820826.661 -        0
+TIMe+I+I+R7     -25412180.380 50824686.760 -        0 50824686.817 -        0 50826603.141 -        0
+TNe+I+I+R7      -25412753.240 50825830.480 -        0 50825830.536 -        0 50827735.104 -        0
+TPM2+I+I+R7     -25422982.640 50846289.280 -        0 50846289.336 -        0 50848193.904 -        0
+K3P+I+I+R7      -25425776.710 50851877.420 -        0 50851877.476 -        0 50853782.044 -        0
+K2P+I+I+R7      -25426344.880 50853011.760 -        0 50853011.815 -        0 50854904.627 -        0
+GTR+F+I+I+R2    -25460000.920 50920317.840 -        0 50920317.893 -        0 50922175.436 -        0
+GTR+F+R2        -25680457.810 51361229.620 -        0 51361229.673 -        0 51363075.459 -        0
+F81+F+I+I+R7    -26064629.500 52129585.000 -        0 52129585.057 -        0 52131501.381 -        0
+JC+I+I+R7       -26084290.240 52168900.480 -        0 52168900.535 -        0 52170781.590 -        0
+GTR+F+I         -26360246.830 52720805.660 -        0 52720805.712 -        0 52722639.742 -        0
+GTR+F           -28084361.610 56169033.220 -        0 56169033.271 -        0 56170855.545 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+I+R7
+
+Rate parameter R:
+
+  A-C: 1.5904
+  A-G: 3.4878
+  A-T: 0.8761
+  C-G: 1.5860
+  C-T: 5.3828
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2425
+  pi(C) = 0.2765
+  pi(G) = 0.2687
+  pi(T) = 0.2123
+
+Rate matrix Q:
+
+  A   -0.8983    0.2528    0.5387    0.1069
+  C    0.2217    -1.123    0.2449    0.6568
+  G    0.4862    0.2521   -0.8603     0.122
+  T    0.1221    0.8556    0.1544    -1.132
+
+Model of rate heterogeneity: Invar+Invar+FreeRate with 7 categories
+Proportion of invariable sites: 0.2031
+Site proportion and rates:  (0.1514,0.07665) (0.1103,0.3353) (0.1134,0.714) (0.1253,1.139) (0.1662,1.741) (0.1063,2.971) (0.0239,5.116)
+
+ Category  Relative_rate  Proportion
+  0         0              0.2031
+  1         0.07665        0.1514
+  2         0.3353         0.1103
+  3         0.714          0.1134
+  4         1.139          0.1253
+  5         1.741          0.1662
+  6         2.971          0.1063
+  7         5.116          0.0239
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -25282547.2600 (s.e. 23258.6168)
+Unconstrained log-likelihood (without tree): -11306902.8794
+Number of free parameters (#branches + #model parameters): 168
+Akaike information criterion (AIC) score: 50565430.5200
+Corrected Akaike information criterion (AICc) score: 50565430.5802
+Bayesian information criterion (BIC) score: 50567405.6856
+
+Total tree length (sum of branch lengths): 11.9575
+Sum of internal branch lengths: 4.7244 (39.5103% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Alysiella_crassa_DSM_2578_GCF_022871045.1.converted' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---Alysiella_crassa_DSM_2578_GCF_022871045.1.converted
+|
+|  +-----Alysiella_filiformis_DSM_16848_GCF_014054525.1.converted
++--| (100)
+|  |                                             +----------------Chitinolyticbacter_meiyuanensis_SYBC-H1_GCF_008033135.1.converted
+|  |                           +-----------------| (100)
+|  |                           |                 |       +--Crenobacter_cavernae_K1W11S-77_GCF_003355495.1.converted
+|  |                           |                 |   +---| (100)
+|  |                           |                 |   |   +--Crenobacter_luteus_DSM_27258_GCF_004345725.1.converted
+|  |                           |                 +---| (100)
+|  |                           |                     |      +--Crenobacter_intestini_GY_70310_GCF_004919095.1.converted
+|  |                           |                     +------| (100)
+|  |                           |                            +--Crenobacter_sedimenti_HX-7-9__GCF_010435965.1.converted
+|  |                        +--| (96)
+|  |                        |  |            +----Vitreoscilla_massiliensis_DSM_100958_GCF_022870925.1.converted
+|  |                        |  +------------| (100)
+|  |                        |               +--------Vitreoscilla_stercoraria_DSM_513_GCF_022870945.1.converted
+|  |                     +--| (100)
+|  |                     |  |    +------------------Snodgrassella_alvi_wkB2_DSM_104735_GCF_022870965.1.converted
+|  |                     |  +----| (100)
+|  |                     |       +-----------Stenoxybacter_acetivorans_DSM_19021_GCF_000745895.1.converted
+|  |                  +--| (100)
+|  |                  |  |              +--Eikenella_corrodens_NCTC10596_GCF_900187105.1.converted
+|  |                  |  |           +--| (100)
+|  |                  |  |           |  +--Eikenella_exigua_PXX_GCF_008805035.1.converted
+|  |                  |  |        +--| (100)
+|  |                  |  |        |  +--Eikenella_halliae_NML130454_GCF_001648475.1.converted
+|  |                  |  |   +----| (100)
+|  |                  |  |   |    +--Eikenella_longinqua_NML02-A-017_GCF_001648355.1.converted
+|  |                  |  +---| (100)
+|  |                  |      +-----Neisseria_shayeganii_DSM_22244_GCF_014054965.1.converted
+|  |              +---| (100)
+|  |              |   |                          +--Morococcus_cerebrosus_CIP_81.93_GCF_000813705.1.converted
+|  |              |   |                       +--| (100)
+|  |              |   |                       |  +--Neisseria_mucosa_ATCC_19696_GCF_003028315.1.converted
+|  |              |   |                    +--| (100)
+|  |              |   |                    |  +--Neisseria_sp-LNP16475
+|  |              |   |                 +--| (100)
+|  |              |   |                 |  |  +--Neisseria_macacae_ATCC_33926_GCF_022749495.1.converted
+|  |              |   |                 |  +--| (100)
+|  |              |   |                 |     +--Neisseria_sicca_DSM_17713_GCF_014054945.1.converted
+|  |              |   |              +--| (100)
+|  |              |   |              |  |                  +--Neisseria_benedictiae_M091_GCF_958267435.1.converted
+|  |              |   |              |  |               +--| (100)
+|  |              |   |              |  |               |  |        +--Neisseria_bergeri_M40463_GCF_003490325.1.converted
+|  |              |   |              |  |               |  |     +--| (100)
+|  |              |   |              |  |               |  |     |  +--Neisseria_maigaei_02_01105_XS1_1_GCF_958267405.1.converted
+|  |              |   |              |  |               |  |  +--| (100)
+|  |              |   |              |  |               |  |  |  +--Neisseria_uirgultaei_12_13988_XS2_1_GCF_962707505.1.converted
+|  |              |   |              |  |               |  +--| (100)
+|  |              |   |              |  |               |     |  +--Neisseria_blantyrii_M338_GCF_962747465.1.converted
+|  |              |   |              |  |               |     +--| (100)
+|  |              |   |              |  |               |        +--Neisseria_viridiae_M101_GCF_962747945.1.converted
+|  |              |   |              |  |            +--| (100)
+|  |              |   |              |  |            |  |  +--Neisseria_gonorrhoeae
+|  |              |   |              |  |            |  +--| (100)
+|  |              |   |              |  |            |     +--Neisseria_meningitidis_8013_GCF_000026965.1.converted
+|  |              |   |              |  |         +--| (100)
+|  |              |   |              |  |         |  +--Neisseria_polysaccharea
+|  |              |   |              |  |      +--| (100)
+|  |              |   |              |  |      |  |  +--Neisseria_lactamica_NCTC10617_GCF_901482445.1.converted
+|  |              |   |              |  |      |  +--| (100)
+|  |              |   |              |  |      |     +--Neisseria_lactamica_NS19_GCF_000193795.1.converted
+|  |              |   |              |  |  +---| (100)
+|  |              |   |              |  |  |   +--Neisseria_cinerea_NCTC10294_GCF_900475315.1.converted
+|  |              |   |              |  +--| (100)
+|  |              |   |              |     |   +--Neisseria_flavescens_ATCC_13120_GCF_005221285.1.converted
+|  |              |   |              |     +---| (100)
+|  |              |   |              |         |  +--Neisseria_subflava_ATCC_49275_GCF_005221305.1.converted
+|  |              |   |              |         +--| (100)
+|  |              |   |              |            +--Neisseria_subflava_M18660_GCF_003351665.1.converted
+|  |              |   |           +--| (100)
+|  |              |   |           |  +---Neisseria_sp_oral_taxon014_str.F0314_GCF_005886145.1.converted
+|  |              |   |        +--| (100)
+|  |              |   |        |  |        +----Neisseria_animalis_ATCC_49930_GCF_008806995.1.converted
+|  |              |   |        |  |     +--| (100)
+|  |              |   |        |  |     |  +---Neisseria_denitrificans-DSMZ17675
+|  |              |   |        |  |  +--| (100)
+|  |              |   |        |  |  |  +-----Neisseria_chenwenguii_10023_GCF_002216145.1.converted
+|  |              |   |        |  +--| (100)
+|  |              |   |        |     |              +--Neisseria_brasiliensis_N.177.16_GCF_009671065.1.converted
+|  |              |   |        |     |           +--| (100)
+|  |              |   |        |     |           |  +--Neisseria_denitrificans-CCUG17229
+|  |              |   |        |     |        +--| (100)
+|  |              |   |        |     |        |  +--Neisseria_weixii_10022_GCF_002327085.1.converted
+|  |              |   |        |     |     +--| (100)
+|  |              |   |        |     |     |  +--Neisseria_yangbaofengii_ZJ785_GCF_014898075.1.converted
+|  |              |   |        |     |  +--| (100)
+|  |              |   |        |     |  |  +--Neisseria_iguanae_ATCC_51483_GCF_003013245.1.converted
+|  |              |   |        |     +--| (100)
+|  |              |   |        |        +--Neisseria_mucosa-heidelbergensis
+|  |              |   |     +--| (99)
+|  |              |   |     |  |              +----Neisseria_animaloris_NCTC12228_GCF_900637855.1.converted
+|  |              |   |     |  |           +--| (100)
+|  |              |   |     |  |           |  |  +--Neisseria_dumasiana_DSM_104677_GCF_022870885.1.converted
+|  |              |   |     |  |           |  +--| (100)
+|  |              |   |     |  |           |     |  +--Neisseria_sp_DentCa1247_GCF_022870825.1.converted
+|  |              |   |     |  |           |     +--| (100)
+|  |              |   |     |  |           |        +--Neisseria_zoodegmatis_NCTC12230_GCF_900187305.1.converted
+|  |              |   |     |  |        +--| (100)
+|  |              |   |     |  |        |  |       +--Neisseria_montereyensis_CSL10203-ORH2_GCF_024834045.1.converted
+|  |              |   |     |  |        |  +-------| (100)
+|  |              |   |     |  |        |          +--Neisseria_zalophi_ATCC_BAA-2455_GCF_008807015.1.converted
+|  |              |   |     |  |     +--| (100)
+|  |              |   |     |  |     |  |  +--Neisseria_dentiae_DSM_19151_GCF_014055005.1.converted
+|  |              |   |     |  |     |  +--| (100)
+|  |              |   |     |  |     |     +--Neisseria_musculi_NW831_GCF_014297595.1.converted
+|  |              |   |     |  |  +--| (99)
+|  |              |   |     |  |  |  +---------Neisseria_weaveri_NCTC12742_GCF_900638685.1.converted
+|  |              |   |     |  +--| (99)
+|  |              |   |     |     |  +----------Neisseria_arctica_DSM_103136_GCF_022870905.1.converted
+|  |              |   |     |     +--| (100)
+|  |              |   |     |        |  +----Uruburuella_suis_DSMZ_17474_GCF_022870845.1.converted
+|  |              |   |     |        +--| (100)
+|  |              |   |     |           +---Uruburuella_testudinis_DSMZ_26510_GCF_022870865.1.converted
+|  |              |   |  +--| (100)
+|  |              |   |  |  |       +--Neisseria_canis_NCTC10296_GCF_900636765.1.converted
+|  |              |   |  |  +-------| (100)
+|  |              |   |  |          |  +--Neisseria_sp_83E034_GCF_001308015.1.converted
+|  |              |   |  |          +--| (100)
+|  |              |   |  |             +--Neisseria_wadsworthii_DSM_22245_GCF_014054885.1.converted
+|  |              |   +--| (100)
+|  |              |      |           +--Neisseria_bacilliformis_DSM_23338_GCF_014055025.1.converted
+|  |              |      |        +--| (100)
+|  |              |      |        |  +--Neisseria_potus_3_SID_1128_GCF_022870985.1.converted
+|  |              |      |     +--| (100)
+|  |              |      |     |  +--Neisseria_sp_KEM232_GCF_002237445.1.converted
+|  |              |      |  +--| (100)
+|  |              |      |  |  +-----Neisseria_elongata_ATCC_29315_GCF_000818035.1.converted
+|  |              |      +--| (100)
+|  |              |         +---------Neisseriasp_3896.converted
+|  |           +--| (100)
+|  |           |  |     +-----Conchiformibius_khuniae_DSM_17694_GCA_022871025.1.converted
+|  |           |  +-----| (100)
+|  |           |        +-----Conchiformibius_steedae_DSM_2580_GCF_014054725.1.converted
+|  |        +--| (100)
+|  |        |  +--------Kingella_denitrificans_FDAARGOS_1060_GCF_016127355.1.converted
+|  |     +--| (100)
+|  |     |  |        +--Kingella_bonacorsii_Marseille-Q4569_GCF_016623605.1.converted
+|  |     |  +--------| (100)
+|  |     |           +--Kingella_oralis_DSM_18271_GCF_014054985.1.converted
+|  |  +--| (100)
+|  |  |  |  +------Kingella_kingae_DSM_7536_GCF_022871005.1.converted
+|  |  |  +--| (100)
+|  |  |     +------Kingella_negevensis_SW7208426_GCF_900177895.1.converted
+|  +--| (100)
+|     +------Wielerella_bovis_CCUG_44465_GCF_022354425.1.converted
+|
++--------Simonsiella_muelleri_ATCC_29453_GCF_002951835.1.converted
+
+Tree in newick format:
+
+(Alysiella_crassa_DSM_2578_GCF_022871045.1.converted:0.1224940523,(Alysiella_filiformis_DSM_16848_GCF_014054525.1.converted:0.1714167017,((((((((((Chitinolyticbacter_meiyuanensis_SYBC-H1_GCF_008033135.1.converted:0.4370401911,((Crenobacter_cavernae_K1W11S-77_GCF_003355495.1.converted:0.0851887300,Crenobacter_luteus_DSM_27258_GCF_004345725.1.converted:0.0594682751)100:0.1076783274,(Crenobacter_intestini_GY_70310_GCF_004919095.1.converted:0.0267098760,Crenobacter_sedimenti_HX-7-9__GCF_010435965.1.converted:0.0264143751)100:0.1726300064)100:0.1063042065)100:0.4576015419,(Vitreoscilla_massiliensis_DSM_100958_GCF_022870925.1.converted:0.1366478822,Vitreoscilla_stercoraria_DSM_513_GCF_022870945.1.converted:0.2240354514)100:0.3202615200)96:0.0568939183,(Snodgrassella_alvi_wkB2_DSM_104735_GCF_022870965.1.converted:0.4732770106,Stenoxybacter_acetivorans_DSM_19021_GCF_000745895.1.converted:0.2989831789)100:0.1411929365)100:0.0690305587,((((Eikenella_corrodens_NCTC10596_GCF_900187105.1.converted:0.0263896146,Eikenella_exigua_PXX_GCF_008805035.1.converted:0.0440054876)100:0.0105645248,Eikenella_halliae_NML130454_GCF_001648475.1.converted:0.0257372661)100:0.0573595130,Eikenella_longinqua_NML02-A-017_GCF_001648355.1.converted:0.0785497844)100:0.1424665653,Neisseria_shayeganii_DSM_22244_GCF_014054965.1.converted:0.1699659677)100:0.1026677890)100:0.0273449903,(((((((((Morococcus_cerebrosus_CIP_81.93_GCF_000813705.1.converted:0.0157206987,Neisseria_mucosa_ATCC_19696_GCF_003028315.1.converted:0.0145793868)100:0.0042892310,Neisseria_sp-LNP16475:0.0304396368)100:0.0145354482,(Neisseria_macacae_ATCC_33926_GCF_022749495.1.converted:0.0145988843,Neisseria_sicca_DSM_17713_GCF_014054945.1.converted:0.0147511257)100:0.0154181519)100:0.0617508135,((((((Neisseria_benedictiae_M091_GCF_958267435.1.converted:0.0312463985,(((Neisseria_bergeri_M40463_GCF_003490325.1.converted:0.0258994139,Neisseria_maigaei_02_01105_XS1_1_GCF_958267405.1.converted:0.0262762240)100:0.0069728560,Neisseria_uirgultaei_12_13988_XS2_1_GCF_962707505.1.converted:0.0282200093)100:0.0054010485,(Neisseria_blantyrii_M338_GCF_962747465.1.converted:0.0262272331,Neisseria_viridiae_M101_GCF_962747945.1.converted:0.0295061453)100:0.0073874502)100:0.0050543411)100:0.0051545596,(Neisseria_gonorrhoeae:0.0299120967,Neisseria_meningitidis_8013_GCF_000026965.1.converted:0.0246004944)100:0.0124115837)100:0.0071264151,Neisseria_polysaccharea:0.0285697643)100:0.0099061508,(Neisseria_lactamica_NCTC10617_GCF_901482445.1.converted:0.0273316735,Neisseria_lactamica_NS19_GCF_000193795.1.converted:0.0345199920)100:0.0173313993)100:0.0256536626,Neisseria_cinerea_NCTC10294_GCF_900475315.1.converted:0.0614532975)100:0.1005027879,(Neisseria_flavescens_ATCC_13120_GCF_005221285.1.converted:0.0202896522,(Neisseria_subflava_ATCC_49275_GCF_005221305.1.converted:0.0226776614,Neisseria_subflava_M18660_GCF_003351665.1.converted:0.0289622306)100:0.0086789215)100:0.1160855122)100:0.0244013705)100:0.0339317662,Neisseria_sp_oral_taxon014_str.F0314_GCF_005886145.1.converted:0.1179545623)100:0.0698853055,(((Neisseria_animalis_ATCC_49930_GCF_008806995.1.converted:0.1245596317,Neisseria_denitrificans-DSMZ17675:0.1004181804)100:0.0634435395,Neisseria_chenwenguii_10023_GCF_002216145.1.converted:0.1637501350)100:0.0188087511,(((((Neisseria_brasiliensis_N.177.16_GCF_009671065.1.converted:0.0224337131,Neisseria_denitrificans-CCUG17229:0.0269515026)100:0.0246783552,Neisseria_weixii_10022_GCF_002327085.1.converted:0.0564690476)100:0.0087667757,Neisseria_yangbaofengii_ZJ785_GCF_014898075.1.converted:0.0630881051)100:0.0252675442,Neisseria_iguanae_ATCC_51483_GCF_003013245.1.converted:0.0907802136)100:0.0445413522,Neisseria_mucosa-heidelbergensis:0.0830293900)100:0.0835759726)100:0.0150955289)100:0.0714777572,(((((Neisseria_animaloris_NCTC12228_GCF_900637855.1.converted:0.1314187949,(Neisseria_dumasiana_DSM_104677_GCF_022870885.1.converted:0.0626786559,(Neisseria_sp_DentCa1247_GCF_022870825.1.converted:0.0309053968,Neisseria_zoodegmatis_NCTC12230_GCF_900187305.1.converted:0.0138902790)100:0.0478180826)100:0.0553775561)100:0.0296260839,(Neisseria_montereyensis_CSL10203-ORH2_GCF_024834045.1.converted:0.0421008203,Neisseria_zalophi_ATCC_BAA-2455_GCF_008807015.1.converted:0.0498292098)100:0.1985449645)100:0.0223333942,(Neisseria_dentiae_DSM_19151_GCF_014055005.1.converted:0.0487035549,Neisseria_musculi_NW831_GCF_014297595.1.converted:0.0942565513)100:0.0943613670)100:0.0273445750,Neisseria_weaveri_NCTC12742_GCF_900638685.1.converted:0.2458814529)99:0.0184046744,(Neisseria_arctica_DSM_103136_GCF_022870905.1.converted:0.2898855030,(Uruburuella_suis_DSMZ_17474_GCF_022870845.1.converted:0.1316575196,Uruburuella_testudinis_DSMZ_26510_GCF_022870865.1.converted:0.1185956896)100:0.0394636502)100:0.0439983206)99:0.0247553331)99:0.0257416770,(Neisseria_canis_NCTC10296_GCF_900636765.1.converted:0.0554911374,(Neisseria_sp_83E034_GCF_001308015.1.converted:0.0513564863,Neisseria_wadsworthii_DSM_22245_GCF_014054885.1.converted:0.0236573177)100:0.0479847995)100:0.2171574435)100:0.0208245214,((((Neisseria_bacilliformis_DSM_23338_GCF_014055025.1.converted:0.0628907659,Neisseria_potus_3_SID_1128_GCF_022870985.1.converted:0.0955327778)100:0.0520036008,Neisseria_sp_KEM232_GCF_002237445.1.converted:0.0912711744)100:0.0767195288,Neisseria_elongata_ATCC_29315_GCF_000818035.1.converted:0.1549082646)100:0.0798504398,Neisseriasp_3896.converted:0.2557296745)100:0.0387587212)100:0.0359215719)100:0.1011097163,(Conchiformibius_khuniae_DSM_17694_GCA_022871025.1.converted:0.1591558990,Conchiformibius_steedae_DSM_2580_GCF_014054725.1.converted:0.1579268463)100:0.1627109320)100:0.0592143633,Kingella_denitrificans_FDAARGOS_1060_GCF_016127355.1.converted:0.2333943858)100:0.0288706569,(Kingella_bonacorsii_Marseille-Q4569_GCF_016623605.1.converted:0.0225471966,Kingella_oralis_DSM_18271_GCF_014054985.1.converted:0.0227472597)100:0.2222953774)100:0.0763909979,(Kingella_kingae_DSM_7536_GCF_022871005.1.converted:0.1782206371,Kingella_negevensis_SW7208426_GCF_900177895.1.converted:0.1954140979)100:0.0386975219)100:0.0359829884,Wielerella_bovis_CCUG_44465_GCF_022354425.1.converted:0.1957170692)100:0.0656272767)100:0.0570183280,Simonsiella_muelleri_ATCC_29453_GCF_002951835.1.converted:0.2257350332);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -25282547.23001498
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---Alysiella_crassa_DSM_2578_GCF_022871045.1.converted
+|
+|  +-----Alysiella_filiformis_DSM_16848_GCF_014054525.1.converted
++--| (100)
+|  |                                             +----------------Chitinolyticbacter_meiyuanensis_SYBC-H1_GCF_008033135.1.converted
+|  |                           +-----------------| (100)
+|  |                           |                 |       +--Crenobacter_cavernae_K1W11S-77_GCF_003355495.1.converted
+|  |                           |                 |   +---| (100)
+|  |                           |                 |   |   +--Crenobacter_luteus_DSM_27258_GCF_004345725.1.converted
+|  |                           |                 +---| (100)
+|  |                           |                     |      +--Crenobacter_intestini_GY_70310_GCF_004919095.1.converted
+|  |                           |                     +------| (100)
+|  |                           |                            +--Crenobacter_sedimenti_HX-7-9__GCF_010435965.1.converted
+|  |                        +--| (96)
+|  |                        |  |            +----Vitreoscilla_massiliensis_DSM_100958_GCF_022870925.1.converted
+|  |                        |  +------------| (100)
+|  |                        |               +--------Vitreoscilla_stercoraria_DSM_513_GCF_022870945.1.converted
+|  |                     +--| (100)
+|  |                     |  |    +------------------Snodgrassella_alvi_wkB2_DSM_104735_GCF_022870965.1.converted
+|  |                     |  +----| (100)
+|  |                     |       +-----------Stenoxybacter_acetivorans_DSM_19021_GCF_000745895.1.converted
+|  |                  +--| (100)
+|  |                  |  |              +--Eikenella_corrodens_NCTC10596_GCF_900187105.1.converted
+|  |                  |  |           +--| (100)
+|  |                  |  |           |  +--Eikenella_exigua_PXX_GCF_008805035.1.converted
+|  |                  |  |        +--| (100)
+|  |                  |  |        |  +--Eikenella_halliae_NML130454_GCF_001648475.1.converted
+|  |                  |  |   +----| (100)
+|  |                  |  |   |    +--Eikenella_longinqua_NML02-A-017_GCF_001648355.1.converted
+|  |                  |  +---| (100)
+|  |                  |      +-----Neisseria_shayeganii_DSM_22244_GCF_014054965.1.converted
+|  |              +---| (100)
+|  |              |   |                          +--Morococcus_cerebrosus_CIP_81.93_GCF_000813705.1.converted
+|  |              |   |                       +--| (100)
+|  |              |   |                       |  +--Neisseria_mucosa_ATCC_19696_GCF_003028315.1.converted
+|  |              |   |                    +--| (100)
+|  |              |   |                    |  +--Neisseria_sp-LNP16475
+|  |              |   |                 +--| (100)
+|  |              |   |                 |  |  +--Neisseria_macacae_ATCC_33926_GCF_022749495.1.converted
+|  |              |   |                 |  +--| (100)
+|  |              |   |                 |     +--Neisseria_sicca_DSM_17713_GCF_014054945.1.converted
+|  |              |   |              +--| (100)
+|  |              |   |              |  |                  +--Neisseria_benedictiae_M091_GCF_958267435.1.converted
+|  |              |   |              |  |               +--| (100)
+|  |              |   |              |  |               |  |        +--Neisseria_bergeri_M40463_GCF_003490325.1.converted
+|  |              |   |              |  |               |  |     +--| (100)
+|  |              |   |              |  |               |  |     |  +--Neisseria_maigaei_02_01105_XS1_1_GCF_958267405.1.converted
+|  |              |   |              |  |               |  |  +--| (100)
+|  |              |   |              |  |               |  |  |  +--Neisseria_uirgultaei_12_13988_XS2_1_GCF_962707505.1.converted
+|  |              |   |              |  |               |  +--| (100)
+|  |              |   |              |  |               |     |  +--Neisseria_blantyrii_M338_GCF_962747465.1.converted
+|  |              |   |              |  |               |     +--| (100)
+|  |              |   |              |  |               |        +--Neisseria_viridiae_M101_GCF_962747945.1.converted
+|  |              |   |              |  |            +--| (100)
+|  |              |   |              |  |            |  |  +--Neisseria_gonorrhoeae
+|  |              |   |              |  |            |  +--| (100)
+|  |              |   |              |  |            |     +--Neisseria_meningitidis_8013_GCF_000026965.1.converted
+|  |              |   |              |  |         +--| (100)
+|  |              |   |              |  |         |  +--Neisseria_polysaccharea
+|  |              |   |              |  |      +--| (100)
+|  |              |   |              |  |      |  |  +--Neisseria_lactamica_NCTC10617_GCF_901482445.1.converted
+|  |              |   |              |  |      |  +--| (100)
+|  |              |   |              |  |      |     +--Neisseria_lactamica_NS19_GCF_000193795.1.converted
+|  |              |   |              |  |  +---| (100)
+|  |              |   |              |  |  |   +--Neisseria_cinerea_NCTC10294_GCF_900475315.1.converted
+|  |              |   |              |  +--| (100)
+|  |              |   |              |     |   +--Neisseria_flavescens_ATCC_13120_GCF_005221285.1.converted
+|  |              |   |              |     +---| (100)
+|  |              |   |              |         |  +--Neisseria_subflava_ATCC_49275_GCF_005221305.1.converted
+|  |              |   |              |         +--| (100)
+|  |              |   |              |            +--Neisseria_subflava_M18660_GCF_003351665.1.converted
+|  |              |   |           +--| (100)
+|  |              |   |           |  +---Neisseria_sp_oral_taxon014_str.F0314_GCF_005886145.1.converted
+|  |              |   |        +--| (100)
+|  |              |   |        |  |        +----Neisseria_animalis_ATCC_49930_GCF_008806995.1.converted
+|  |              |   |        |  |     +--| (100)
+|  |              |   |        |  |     |  +---Neisseria_denitrificans-DSMZ17675
+|  |              |   |        |  |  +--| (100)
+|  |              |   |        |  |  |  +-----Neisseria_chenwenguii_10023_GCF_002216145.1.converted
+|  |              |   |        |  +--| (100)
+|  |              |   |        |     |              +--Neisseria_brasiliensis_N.177.16_GCF_009671065.1.converted
+|  |              |   |        |     |           +--| (100)
+|  |              |   |        |     |           |  +--Neisseria_denitrificans-CCUG17229
+|  |              |   |        |     |        +--| (100)
+|  |              |   |        |     |        |  +--Neisseria_weixii_10022_GCF_002327085.1.converted
+|  |              |   |        |     |     +--| (100)
+|  |              |   |        |     |     |  +--Neisseria_yangbaofengii_ZJ785_GCF_014898075.1.converted
+|  |              |   |        |     |  +--| (100)
+|  |              |   |        |     |  |  +--Neisseria_iguanae_ATCC_51483_GCF_003013245.1.converted
+|  |              |   |        |     +--| (100)
+|  |              |   |        |        +--Neisseria_mucosa-heidelbergensis
+|  |              |   |     +--| (99)
+|  |              |   |     |  |              +----Neisseria_animaloris_NCTC12228_GCF_900637855.1.converted
+|  |              |   |     |  |           +--| (100)
+|  |              |   |     |  |           |  |  +--Neisseria_dumasiana_DSM_104677_GCF_022870885.1.converted
+|  |              |   |     |  |           |  +--| (100)
+|  |              |   |     |  |           |     |  +--Neisseria_sp_DentCa1247_GCF_022870825.1.converted
+|  |              |   |     |  |           |     +--| (100)
+|  |              |   |     |  |           |        +--Neisseria_zoodegmatis_NCTC12230_GCF_900187305.1.converted
+|  |              |   |     |  |        +--| (100)
+|  |              |   |     |  |        |  |       +--Neisseria_montereyensis_CSL10203-ORH2_GCF_024834045.1.converted
+|  |              |   |     |  |        |  +-------| (100)
+|  |              |   |     |  |        |          +--Neisseria_zalophi_ATCC_BAA-2455_GCF_008807015.1.converted
+|  |              |   |     |  |     +--| (100)
+|  |              |   |     |  |     |  |  +--Neisseria_dentiae_DSM_19151_GCF_014055005.1.converted
+|  |              |   |     |  |     |  +--| (100)
+|  |              |   |     |  |     |     +--Neisseria_musculi_NW831_GCF_014297595.1.converted
+|  |              |   |     |  |  +--| (99)
+|  |              |   |     |  |  |  +---------Neisseria_weaveri_NCTC12742_GCF_900638685.1.converted
+|  |              |   |     |  +--| (99)
+|  |              |   |     |     |  +----------Neisseria_arctica_DSM_103136_GCF_022870905.1.converted
+|  |              |   |     |     +--| (100)
+|  |              |   |     |        |  +----Uruburuella_suis_DSMZ_17474_GCF_022870845.1.converted
+|  |              |   |     |        +--| (100)
+|  |              |   |     |           +---Uruburuella_testudinis_DSMZ_26510_GCF_022870865.1.converted
+|  |              |   |  +--| (100)
+|  |              |   |  |  |       +--Neisseria_canis_NCTC10296_GCF_900636765.1.converted
+|  |              |   |  |  +-------| (100)
+|  |              |   |  |          |  +--Neisseria_sp_83E034_GCF_001308015.1.converted
+|  |              |   |  |          +--| (100)
+|  |              |   |  |             +--Neisseria_wadsworthii_DSM_22245_GCF_014054885.1.converted
+|  |              |   +--| (100)
+|  |              |      |           +--Neisseria_bacilliformis_DSM_23338_GCF_014055025.1.converted
+|  |              |      |        +--| (100)
+|  |              |      |        |  +--Neisseria_potus_3_SID_1128_GCF_022870985.1.converted
+|  |              |      |     +--| (100)
+|  |              |      |     |  +--Neisseria_sp_KEM232_GCF_002237445.1.converted
+|  |              |      |  +--| (100)
+|  |              |      |  |  +-----Neisseria_elongata_ATCC_29315_GCF_000818035.1.converted
+|  |              |      +--| (100)
+|  |              |         +---------Neisseriasp_3896.converted
+|  |           +--| (100)
+|  |           |  |     +-----Conchiformibius_khuniae_DSM_17694_GCA_022871025.1.converted
+|  |           |  +-----| (100)
+|  |           |        +-----Conchiformibius_steedae_DSM_2580_GCF_014054725.1.converted
+|  |        +--| (100)
+|  |        |  +--------Kingella_denitrificans_FDAARGOS_1060_GCF_016127355.1.converted
+|  |     +--| (100)
+|  |     |  |        +--Kingella_bonacorsii_Marseille-Q4569_GCF_016623605.1.converted
+|  |     |  +--------| (100)
+|  |     |           +--Kingella_oralis_DSM_18271_GCF_014054985.1.converted
+|  |  +--| (100)
+|  |  |  |  +------Kingella_kingae_DSM_7536_GCF_022871005.1.converted
+|  |  |  +--| (100)
+|  |  |     +------Kingella_negevensis_SW7208426_GCF_900177895.1.converted
+|  +--| (100)
+|     +------Wielerella_bovis_CCUG_44465_GCF_022354425.1.converted
+|
++--------Simonsiella_muelleri_ATCC_29453_GCF_002951835.1.converted
+
+
+Consensus tree in newick format: 
+
+(Alysiella_crassa_DSM_2578_GCF_022871045.1.converted:0.1225235331,(Alysiella_filiformis_DSM_16848_GCF_014054525.1.converted:0.1714593912,((((((((((Chitinolyticbacter_meiyuanensis_SYBC-H1_GCF_008033135.1.converted:0.4371559890,((Crenobacter_cavernae_K1W11S-77_GCF_003355495.1.converted:0.0852089477,Crenobacter_luteus_DSM_27258_GCF_004345725.1.converted:0.0594839734)100:0.1077016465,(Crenobacter_intestini_GY_70310_GCF_004919095.1.converted:0.0267154719,Crenobacter_sedimenti_HX-7-9__GCF_010435965.1.converted:0.0264216194)100:0.1726773014)100:0.1063313459)100:0.4577240101,(Vitreoscilla_massiliensis_DSM_100958_GCF_022870925.1.converted:0.1366741376,Vitreoscilla_stercoraria_DSM_513_GCF_022870945.1.converted:0.2241001481)100:0.3203533568)96:0.0569019036,(Snodgrassella_alvi_wkB2_DSM_104735_GCF_022870965.1.converted:0.4734044566,Stenoxybacter_acetivorans_DSM_19021_GCF_000745895.1.converted:0.2990681478)100:0.1412225790)100:0.0690445171,((((Eikenella_corrodens_NCTC10596_GCF_900187105.1.converted:0.0263963139,Eikenella_exigua_PXX_GCF_008805035.1.converted:0.0440168973)100:0.0105671551,Eikenella_halliae_NML130454_GCF_001648475.1.converted:0.0257436566)100:0.0573749967,Eikenella_longinqua_NML02-A-017_GCF_001648355.1.converted:0.0785687325)100:0.1425045423,Neisseria_shayeganii_DSM_22244_GCF_014054965.1.converted:0.1700103715)100:0.1026936104)100:0.0273506529,(((((((((Morococcus_cerebrosus_CIP_81.93_GCF_000813705.1.converted:0.0157250684,Neisseria_mucosa_ATCC_19696_GCF_003028315.1.converted:0.0145835531)100:0.0042903454,Neisseria_sp-LNP16475:0.0304482536)100:0.0145396119,(Neisseria_macacae_ATCC_33926_GCF_022749495.1.converted:0.0146029193,Neisseria_sicca_DSM_17713_GCF_014054945.1.converted:0.0147553544)100:0.0154222313)100:0.0617683917,((((((Neisseria_benedictiae_M091_GCF_958267435.1.converted:0.0312555130,(((Neisseria_bergeri_M40463_GCF_003490325.1.converted:0.0259068063,Neisseria_maigaei_02_01105_XS1_1_GCF_958267405.1.converted:0.0262838998)100:0.0069748030,Neisseria_uirgultaei_12_13988_XS2_1_GCF_962707505.1.converted:0.0282281842)100:0.0054024214,(Neisseria_blantyrii_M338_GCF_962747465.1.converted:0.0262347875,Neisseria_viridiae_M101_GCF_962747945.1.converted:0.0295147849)100:0.0073894809)100:0.0050556267)100:0.0051558360,(Neisseria_gonorrhoeae:0.0299206734,Neisseria_meningitidis_8013_GCF_000026965.1.converted:0.0246076895)100:0.0124150614)100:0.0071283080,Neisseria_polysaccharea:0.0285780822)100:0.0099086923,(Neisseria_lactamica_NCTC10617_GCF_901482445.1.converted:0.0273393532,Neisseria_lactamica_NS19_GCF_000193795.1.converted:0.0345300900)100:0.0173363033)100:0.0256598482,Neisseria_cinerea_NCTC10294_GCF_900475315.1.converted:0.0614716944)100:0.1005314755,(Neisseria_flavescens_ATCC_13120_GCF_005221285.1.converted:0.0202951630,(Neisseria_subflava_ATCC_49275_GCF_005221305.1.converted:0.0226840696,Neisseria_subflava_M18660_GCF_003351665.1.converted:0.0289705521)100:0.0086814199)100:0.1161187380)100:0.0244076267)100:0.0339402720,Neisseria_sp_oral_taxon014_str.F0314_GCF_005886145.1.converted:0.1179886703)100:0.0699049787,(((Neisseria_animalis_ATCC_49930_GCF_008806995.1.converted:0.1245942189,Neisseria_denitrificans-DSMZ17675:0.1004472340)100:0.0634610496,Neisseria_chenwenguii_10023_GCF_002216145.1.converted:0.1637973317)100:0.0188121190,(((((Neisseria_brasiliensis_N.177.16_GCF_009671065.1.converted:0.0224397092,Neisseria_denitrificans-CCUG17229:0.0269590265)100:0.0246853306,Neisseria_weixii_10022_GCF_002327085.1.converted:0.0564846207)100:0.0087687179,Neisseria_yangbaofengii_ZJ785_GCF_014898075.1.converted:0.0631055633)100:0.0252744708,Neisseria_iguanae_ATCC_51483_GCF_003013245.1.converted:0.0908053258)100:0.0445537066,Neisseria_mucosa-heidelbergensis:0.0830520234)100:0.0835997261)100:0.0150987810)100:0.0714976666,(((((Neisseria_animaloris_NCTC12228_GCF_900637855.1.converted:0.1314542186,(Neisseria_dumasiana_DSM_104677_GCF_022870885.1.converted:0.0626947677,(Neisseria_sp_DentCa1247_GCF_022870825.1.converted:0.0309133748,Neisseria_zoodegmatis_NCTC12230_GCF_900187305.1.converted:0.0138940395)100:0.0478311260)100:0.0553925338)100:0.0296335610,(Neisseria_montereyensis_CSL10203-ORH2_GCF_024834045.1.converted:0.0421097905,Neisseria_zalophi_ATCC_BAA-2455_GCF_008807015.1.converted:0.0498443146)100:0.1985996508)100:0.0223384142,(Neisseria_dentiae_DSM_19151_GCF_014055005.1.converted:0.0487156490,Neisseria_musculi_NW831_GCF_014297595.1.converted:0.0942829033)100:0.0943867827)100:0.0273518128,Neisseria_weaveri_NCTC12742_GCF_900638685.1.converted:0.2459501925)99:0.0184089027,(Neisseria_arctica_DSM_103136_GCF_022870905.1.converted:0.2899677951,(Uruburuella_suis_DSMZ_17474_GCF_022870845.1.converted:0.1316932837,Uruburuella_testudinis_DSMZ_26510_GCF_022870865.1.converted:0.1186293340)100:0.0394738309)100:0.0440083617)99:0.0247617604)99:0.0257477983,(Neisseria_canis_NCTC10296_GCF_900636765.1.converted:0.0555043333,(Neisseria_sp_83E034_GCF_001308015.1.converted:0.0513696206,Neisseria_wadsworthii_DSM_22245_GCF_014054885.1.converted:0.0236638137)100:0.0479982074)100:0.2172165038)100:0.0208294471,((((Neisseria_bacilliformis_DSM_23338_GCF_014055025.1.converted:0.0629073474,Neisseria_potus_3_SID_1128_GCF_022870985.1.converted:0.0955581334)100:0.0520161149,Neisseria_sp_KEM232_GCF_002237445.1.converted:0.0912947128)100:0.0767398758,Neisseria_elongata_ATCC_29315_GCF_000818035.1.converted:0.1549489484)100:0.0798714790,Neisseriasp_3896.converted:0.2557998768)100:0.0387666682)100:0.0359305024)100:0.1011348822,(Conchiformibius_khuniae_DSM_17694_GCA_022871025.1.converted:0.1591934477,Conchiformibius_steedae_DSM_2580_GCF_014054725.1.converted:0.1579697964)100:0.1627467586)100:0.0592292014,Kingella_denitrificans_FDAARGOS_1060_GCF_016127355.1.converted:0.2334537953)100:0.0288766786,(Kingella_bonacorsii_Marseille-Q4569_GCF_016623605.1.converted:0.0225518503,Kingella_oralis_DSM_18271_GCF_014054985.1.converted:0.0227534279)100:0.2223516787)100:0.0764102658,(Kingella_kingae_DSM_7536_GCF_022871005.1.converted:0.1782649737,Kingella_negevensis_SW7208426_GCF_900177895.1.converted:0.1954642541)100:0.0387048573)100:0.0359909064,Wielerella_bovis_CCUG_44465_GCF_022354425.1.converted:0.1957663005)100:0.0656427723)100:0.0570306922,Simonsiella_muelleri_ATCC_29453_GCF_002951835.1.converted:0.2257920930);
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 20 08:11:31 2023
+Total CPU time used: 171049.9125 seconds (47h:30m:49s)
+Total wall-clock time used: 11999.89665 seconds (3h:19m:59s)
+
