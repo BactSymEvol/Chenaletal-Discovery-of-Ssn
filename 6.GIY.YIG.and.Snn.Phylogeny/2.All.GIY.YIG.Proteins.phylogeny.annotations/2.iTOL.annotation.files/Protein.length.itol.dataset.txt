@@ -34,7 +34,7 @@ FIELD_LABELS Protein_length
 #=================================================================#
 
 #dataset scale: you can simply set the values where the scale will be drawn
-DATASET_SCALE,250,500,750
+DATASET_SCALE 250 500 750
 #or you can specify value, label, color, width, style and label size factor for each scale line (dash separated, format: VALUE-LABEL-COLOR-WIDTH-DASHED-LABEL_SCALE_FACTOR))
 #DATASET_SCALE,2000-2k line-#0000ff-5-1-1,10000-line at 10k-#ff0000-1-0-2,20000-3rd line-#00ff00-5-1-1
 
@@ -63,7 +63,7 @@ DATASET_SCALE,250,500,750
 #LEGEND_SHAPE_SCALES,1,1,0.5
 
 #maximum width
-WIDTH,100
+WIDTH 100
 
 #left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
 #MARGIN,0
