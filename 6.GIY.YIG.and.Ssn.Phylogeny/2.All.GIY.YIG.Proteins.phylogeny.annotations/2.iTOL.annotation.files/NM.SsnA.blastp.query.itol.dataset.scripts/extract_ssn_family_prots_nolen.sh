@@ -8,8 +8,8 @@ HOMOLOGY_CUTOFF=60
 MIN_ALIGNMENT_LENGTH=75
 MAX_LENGTH=2000
 
-GENOMES_DBDIR="../3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/1.NCBI.Ref.Seq.Representative.DB/RefSeq_genomes_20230829/GCFs"
-SSNA="/project/def-fveyrier/luke/SSna.Paper.Revisisions/SsnA.Nm.8013.faa"
+GENOMES_DBDIR="../../../../3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/1.NCBI.Ref.Seq.Representative.DB/RefSeq_genomes_20230829/GCFs"
+SSNA="../../../5.SRM.search.in.NCBI.refseq/1_Enumerate_SRM_in_NCBI/SsnA.Nm.8013.faa"
 
 SCRATCH_DIR="/tmp"
 

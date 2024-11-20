@@ -1,7 +1,6 @@
 #### R script to process rpsblast output and return the top hit for each protein/genome pair
 #### Author: Luke B Harrison
 #### Note: if a specific hit is superseeded by the superfamily hit, report support the sepcific hit
-#### Input argu
 cdd.key<-read.csv("giy.yig.updated.smp.bitscores_newcolors_final.tsv",sep="\t",header=F)
 prots<-read.csv("../../../1.Extract.All.GIY.YIG.Proteins/3.CDHIT.Cluster.Proteins/refseq_GCF_eference_genomes.20230829.all.giy.yig.updated.lessthan750.c06.GCFprot.list.txt",header=F,sep="\t")
 

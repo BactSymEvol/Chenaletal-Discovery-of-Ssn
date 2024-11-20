@@ -1,17 +1,16 @@
-
 ## Script to run rpsblast against all custom CDD database to extract ALL giy.yig proteins in the reference/respresentative genome database
 ## Author: Luke B Harrison
 ## ${1} = list of genome accession (GCF_aseembly) format
+## Output: 1. RPSblast results (all.giy.yig.updated.rpsblasthits.tsv) 2: extracted GIY.YIG protein (refseq_GCF_eference_genomes.20230829.all.giy.yig.updated.faa)
 
 ## PARAMETERS
 EVALUE_CUTOFF_RPSBLAST="0.1"
 
 GENOMES_DBDIR="../3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/1.NCBI.Ref.Seq.Representative.DB/RefSeq_genomes_20230829/GCFs"
-CDD_DB="/home/luke/Dropbox/Postdoc.INRS/Projects/SsnA.Paper.2023/Data.supplement/6.GIY.YIG.and.Snn.Phylogeny/1.Extract.All.GIY.YIG.Proteins/1.Custom.CDD.Database"
-SSNA="/project/def-fveyrier/luke/SSna.Paper.Revisisions/SsnA.Nm.8013.faa"
-CDD_PSSM="/project/def-fveyrier/luke/SSna.Paper.Revisisions/cd10448.rescaled.smp"
-GIY_CDDs="/project/def-fveyrier/luke/SSna.Paper.Revisisions/giy.yig.cdd.database.updated/giy.yig.updated.pssm.list.txt"
-GIY_CDDs_BITSCORE="/project/def-fveyrier/luke/SSna.Paper.Revisisions/giy.yig.cdd.database.updated/giy.yig.updated.smp.bitscores.lowered.tsv"
+CDD_DB="../1.Custom.CDD.Database/giy.yig.updated"
+SSNA="../../../5.SRM.search.in.NCBI.refseq/1_Enumerate_SRM_in_NCBI/SsnA.Nm.8013.faa"
+GIY_CDDs="../1.Custom.CDD.Database/giy.yig.updated.pssm.list.txt"
+GIY_CDDs_BITSCORE="../1.Custom.CDD.Database/giy.yig.updated.smp.bitscores.lowered.tsv"
 
 SCRATCH_DIR="/tmp"
 

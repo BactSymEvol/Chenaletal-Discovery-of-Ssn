@@ -1,9 +1,0 @@
-This analysis searches for NTS and NTSlike elements in the NCBI reference/representative database and also searchs for homologs of the
-Nm 8013 protein SSnA (CAX49033.1) in thos same databases using 2 different homology criteria.
-1. Any homolog present with E value < 1e-10
-2. Any homolog present with E value < 1e-10 and percentage of identity > 60%
-Homologs identifed without wtih reference only to the GIy-YIG gene subfamily to which SSNA belongs are indentified usign
-3. PSI blast homolog present based on the PSSM for this subfamily (CD10448)
-4. PSI blast homolog present based on the PSSM for this subfamily (CD10448), and for which reverse PSI blast identifies as the protein belonging to CD100448 with a score of > 100
-
-Extracted flanking regions of 5000bp from all homologs based on the above criteria are also extracted for downstream analysis

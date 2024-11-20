@@ -108,9 +108,14 @@ SIZE_FACTOR,10
 DATA
 #node 9606 will have a filled circle, outline of a left triangle, nothing in the 3rd column and an rectangle outline in column 4
 #9606,1,0,-1,0
-GCF_001641755.2|WP_231745194.1,1
+#GCF_001641755.2|WP_231745194.1,1
+# N wadsworthii (QMT36335.1)
+GCF_009746125.1|WP_162527539.1,1
+# W pipientis (QED00936.1)
 GCF_028982105.1|WP_275008997.1,1
+#N elongata (CP007726.1_prot_AJE18749.1_1327)
 GCF_014284235.1|WP_186902438.1,1
+#N meningitidis (SSNA_NM8013)
 GCF_014284235.1|WP_186902438.1,1
 
 

@@ -1,9 +1,10 @@
-### Script to search for NTS-like elements in the flanking regions of representative/reference genome database
+### Script to search for NTS-like elements in the flanking regions of representative/reference genome database for a given protein (given has GENOME|PROTEIN_ID)
 ### Author: Luke B. Harrison
-### Input: $1 a list of NCBI genome assembly IDs corresponding to the DB in question
+### Input: $1 a list of proteins identified as (>GENOME|PROTEIN)
+### Output: A spreadsheet with results of whether or not a a given protein is flanked by NTS or SRM (NTS-like) elements, and a processed output file for ITOL
 
 ## PARAMETERS
-GENOMES_DBDIR="../3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/1.NCBI.Ref.Seq.Representative.DB/RefSeq_genomes_20230829/GCFs"
+GENOMES_DBDIR="../../../../3.Nm8013.Protein.Homologs.Flanked.byNTS.in.NCBI/1.NCBI.Ref.Seq.Representative.DB/RefSeq_genomes_20230829/GCFs"
 NTSSEQ="CGTCATTCCCGCG[AC]A[ACG]GCGGGAATC[CT][AG]G"
 NTS_LIKE="[CTA]-G-T-C-[AT]-[TC]-N(0,2)-[CT]-[CT]-[CGA]-[CG]-[CTG]-[GA]-[CAT]-N(0,5)-[AT]-N-[GAC]-[CG]-[GCT]-[GA]-G-N(0,2)-[AG]-N-C-[CT]-N-[TCG]"
 
